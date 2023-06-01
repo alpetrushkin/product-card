@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Title = ({children}) => {
+const Title = ({title}) => {
   return (
-    <h1>{children}</h1>
+    <h1>{title}</h1>
   );
 };
 

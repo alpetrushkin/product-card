@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import ProductCard from "./ProductCard";
-import {product} from './components/mock';
+import Card from "./Card";
+import {product} from './mock';
 
+console.log(product)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<ProductCard product={product}/>);
+root.render(<Card  product={product}/>);
 
